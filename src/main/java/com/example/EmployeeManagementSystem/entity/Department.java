@@ -1,5 +1,6 @@
 package com.example.EmployeeManagementSystem.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
@@ -21,5 +22,6 @@ public class Department {
     private String location;
 
     @OneToMany(mappedBy = "department")
+    @JsonBackReference
     private List<Employee> employees;
 }
