@@ -10,4 +10,6 @@ public interface EmployeeService {
     EmployeeResponse create(EmployeeRequest request);
 
     Page<EmployeeResponse> getAll(String departmentName, Pageable pageable);
+
+    EmployeeResponse getById(Long id);
 }

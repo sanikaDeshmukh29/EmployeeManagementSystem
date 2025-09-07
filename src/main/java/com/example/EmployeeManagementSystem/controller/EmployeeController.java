@@ -32,4 +32,10 @@ public class EmployeeController {
         Page<EmployeeResponse> employees = employeeService.getAll(department, pageable);
         return ResponseEntity.ok(employees);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<EmployeeResponse> getEmployeeById(@PathVariable Long id) {
+        EmployeeResponse response = employeeService.getById(id);
+        return ResponseEntity.ok(response);
+    }
 }

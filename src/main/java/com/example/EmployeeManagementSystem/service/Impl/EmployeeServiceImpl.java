@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -57,4 +58,16 @@ public class EmployeeServiceImpl implements EmployeeService {
         }
         return page.map(EmployeeMapper::toResponse);
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public EmployeeResponse getById(Long id) {
+        log.debug("Fetching employee by id {}", id);
+        Employee emp = employeeRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Employee with ID " + id + " not found"));
+        return EmployeeMapper.toResponse(emp);
+    }
+
+
+
 }
