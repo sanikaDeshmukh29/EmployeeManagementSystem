@@ -12,4 +12,6 @@ public interface EmployeeService {
     Page<EmployeeResponse> getAll(String departmentName, Pageable pageable);
 
     EmployeeResponse getById(Long id);
+
+    EmployeeResponse updateEmployee(Long id, EmployeeRequest request);
 }
