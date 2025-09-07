@@ -1,7 +1,10 @@
 package com.example.EmployeeManagementSystem.dto;
 
+import lombok.Data;
+
 import java.math.BigDecimal;
 
+@Data
 public class EmployeeResponse {
 
     private Long id;

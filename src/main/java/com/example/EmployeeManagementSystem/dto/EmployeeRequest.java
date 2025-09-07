@@ -1,9 +1,11 @@
 package com.example.EmployeeManagementSystem.dto;
 
 import jakarta.validation.constraints.*;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
+@Data
 public class EmployeeRequest {
 
     @NotBlank
