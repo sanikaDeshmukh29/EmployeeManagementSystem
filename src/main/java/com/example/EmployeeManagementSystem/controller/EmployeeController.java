@@ -47,4 +47,10 @@ public class EmployeeController {
         return ResponseEntity.ok(updated);
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteEmployee(@PathVariable Long id) {
+        employeeService.delete(id);
+        return ResponseEntity.noContent().build(); // 204 No Content
+    }
+
 }

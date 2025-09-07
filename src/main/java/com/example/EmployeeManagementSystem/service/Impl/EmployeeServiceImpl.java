@@ -85,5 +85,16 @@ public class EmployeeServiceImpl implements EmployeeService {
         return EmployeeMapper.toResponse(updated);
     }
 
+    @Override
+    @Transactional
+    public void delete(Long id) {
+        log.debug("Deleting employee id={}", id);
+        if (!employeeRepository.existsById(id)) {
+            throw new ResourceNotFoundException("Employee with ID " + id + " not found");
+        }
+        employeeRepository.deleteById(id);
+        log.info("Deleted employee id={}", id);
+    }
+
 
 }
