@@ -44,4 +44,17 @@ public class EmployeeServiceImpl implements EmployeeService {
         log.info("Created employee id={}", saved.getId());
         return EmployeeMapper.toResponse(saved);
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Page<EmployeeResponse> getAll(String departmentName, Pageable pageable) {
+        log.debug("Fetching employees. departmentFilter={}, pageable={}", departmentName, pageable);
+        Page<Employee> page;
+        if (departmentName == null || departmentName.isBlank()) {
+            page = employeeRepository.findAll(pageable);
+        } else {
+            page = employeeRepository.findByDepartment_Name(departmentName, pageable);
+        }
+        return page.map(EmployeeMapper::toResponse);
+    }
 }

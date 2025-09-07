@@ -9,5 +9,5 @@ public interface EmployeeService {
 
     EmployeeResponse create(EmployeeRequest request);
 
-//    Page<EmployeeResponse> getAll(String departmentName, Pageable pageable);
+    Page<EmployeeResponse> getAll(String departmentName, Pageable pageable);
 }
