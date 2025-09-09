@@ -163,3 +163,60 @@
 2025-09-09 14:40:55 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
 2025-09-09 14:40:56 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
 2025-09-09 14:40:56 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 36.737 seconds (process running for 38.602)
+2025-09-09 15:19:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09 15:19:23 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-09 15:19:25 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-09 15:19:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-09 15:19:26 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-09 15:20:13 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-09 15:20:13 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 4128 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-09 15:20:13 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-09 15:20:13 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-09 15:20:14 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09 15:20:14 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09 15:20:21 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-09 15:20:22 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211 ms. Found 2 JPA repository interfaces.
+2025-09-09 15:20:26 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-09 15:20:26 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-09 15:20:26 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-09 15:20:26 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09 15:20:27 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-09 15:20:27 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12806 ms
+2025-09-09 15:20:27 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-09 15:20:28 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-09 15:20:29 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fb2f65
+2025-09-09 15:20:29 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-09 15:20:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-09 15:20:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-09 15:20:30 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-09 15:20:30 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.102s)
+2025-09-09 15:20:30 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-09 15:20:30 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-09 15:20:31 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-09 15:20:31 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-09 15:20:31 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-09 15:20:32 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-09 15:20:35 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-09 15:20:35 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-09 15:20:36 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-09 15:20:37 INFO  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-09-09 15:20:39 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-09 15:20:39 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-09 15:20:39 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-09 15:20:39 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 36.426 seconds (process running for 39.191)
+2025-09-09 15:20:54 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09 15:20:54 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-09 15:20:54 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 39 ms
+2025-09-09 15:20:55 WARN  [requestId=] o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [346] milliseconds.
+2025-09-09 15:28:46 WARN  [requestId=fde55266-0d43-4725-bd9f-f910798b2ac8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2025-09-09 15:29:49 DEBUG [requestId=e4ecc7fd-cbf8-4250-a137-b98f98642eb4] c.e.E.s.Impl.DepartmentServiceImpl - Fetching all departments
