@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
@@ -25,24 +23,17 @@ public class GlobalExceptionHandler {
         );
     }
 
-    @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<ErrorResponse> handleResourceNotFound(ResourceNotFoundException ex,
-                                                                HttpServletRequest request) {
+    //Handle all ApiException (parent) and its children
+    @ExceptionHandler(ApiException.class)
+    public ResponseEntity<ErrorResponse> handleApiException(ApiException ex, HttpServletRequest request) {
+        HttpStatus status = HttpStatus.valueOf(ex.getStatusCode());
         return new ResponseEntity<>(
-                buildErrorResponse(HttpStatus.NOT_FOUND, ex.getMessage(), request.getRequestURI()),
-                HttpStatus.NOT_FOUND
+                buildErrorResponse(status, ex.getMessage(), request.getRequestURI()),
+                status
         );
     }
 
-    @ExceptionHandler(BadRequestException.class)
-    public ResponseEntity<ErrorResponse> handleBadRequest(BadRequestException ex,
-                                                          HttpServletRequest request) {
-        return new ResponseEntity<>(
-                buildErrorResponse(HttpStatus.BAD_REQUEST, ex.getMessage(), request.getRequestURI()),
-                HttpStatus.BAD_REQUEST
-        );
-    }
-
+    // Validation errors
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidationErrors(MethodArgumentNotValidException ex,
                                                                 HttpServletRequest request) {
@@ -57,6 +48,7 @@ public class GlobalExceptionHandler {
         );
     }
 
+    // Any other uncaught exceptions
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGeneric(Exception ex, HttpServletRequest request) {
         return new ResponseEntity<>(
@@ -65,5 +57,3 @@ public class GlobalExceptionHandler {
         );
     }
 }
-
-
