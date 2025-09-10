@@ -278,7 +278,6 @@ Below are the Postman test results for all CRUD operations and security features
 
 ### 🟢 Create Department
 ![Create Department](src/images/createDepartment.png)
-## Contribution
 
 ### 🟢 Create Employee
 ![Create Employee](src/images/create%20employee.png)
@@ -320,7 +319,7 @@ Below are the Postman test results for all CRUD operations and security features
 
 
 
-
+## Contribution
 
 * Fork the repository
 * Create a feature branch (`git checkout -b feature/your-feature`)
