@@ -10,6 +10,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
@@ -23,32 +24,21 @@ public class DepartmentController {
 
     private final DepartmentService departmentService;
 
-    @Operation(summary = "Get all departments", description = "Fetches a list of all departments")
-    @ApiResponses({
-            @ApiResponse(responseCode = "200", description = "List of departments retrieved successfully")
-    })
+    @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping
     public ResponseEntity<List<DepartmentResponse>> getAllDepartments() {
         List<DepartmentResponse> departments = departmentService.getAll();
         return ResponseEntity.ok(departments);
     }
 
-    @Operation(summary = "Get department by ID", description = "Fetches details of a department by its ID")
-    @ApiResponses({
-            @ApiResponse(responseCode = "200", description = "Department found"),
-            @ApiResponse(responseCode = "404", description = "Department not found")
-    })
+    @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping("/{id}")
     public ResponseEntity<DepartmentResponse> getDepartmentById(@PathVariable Long id) {
         DepartmentResponse department = departmentService.getById(id);
         return ResponseEntity.ok(department);
     }
 
-    @Operation(summary = "Create a new department", description = "Adds a new department into the system")
-    @ApiResponses({
-            @ApiResponse(responseCode = "201", description = "Department created successfully"),
-            @ApiResponse(responseCode = "400", description = "Invalid department details")
-    })
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<DepartmentResponse> createDepartment(@Valid @RequestBody DepartmentRequest departmentRequest) {
         DepartmentResponse saved = departmentService.create(departmentRequest);
@@ -56,11 +46,7 @@ public class DepartmentController {
                 .body(saved);
     }
 
-    @Operation(summary = "Update department", description = "Updates an existing department by ID")
-    @ApiResponses({
-            @ApiResponse(responseCode = "200", description = "Department updated successfully"),
-            @ApiResponse(responseCode = "404", description = "Department not found")
-    })
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{id}")
     public ResponseEntity<DepartmentResponse> updateDepartment(
             @PathVariable Long id,
@@ -69,15 +55,10 @@ public class DepartmentController {
         return ResponseEntity.ok(updated);
     }
 
-    @Operation(summary = "Delete department", description = "Deletes a department by ID")
-    @ApiResponses({
-            @ApiResponse(responseCode = "204", description = "Department deleted successfully"),
-            @ApiResponse(responseCode = "404", description = "Department not found")
-    })
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteDepartment(@PathVariable Long id) {
         departmentService.delete(id);
         return ResponseEntity.noContent().build();
     }
-
 }

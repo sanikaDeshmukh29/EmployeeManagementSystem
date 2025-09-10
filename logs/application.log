@@ -1,34 +1,33 @@
-2025-09-09 12:17:45 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-09 12:17:45 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 10328 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
-2025-09-09 12:17:45 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-09 12:17:45 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-09 12:17:46 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-09 12:17:46 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-09 12:17:49 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-09 12:17:49 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
-2025-09-09 12:17:51 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-09 12:17:51 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-09 12:17:51 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-09 12:17:51 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-09 12:17:51 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-09 12:17:51 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5425 ms
-2025-09-09 12:17:51 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
-2025-09-09 12:17:53 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-09 12:17:54 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4674a534
-2025-09-09 12:17:54 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-09 12:17:54 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
-2025-09-09 12:17:54 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
-2025-09-09 12:17:54 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
-2025-09-09 12:17:55 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
-2025-09-09 12:17:55 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.300s)
-2025-09-09 12:17:55 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
-2025-09-09 12:17:55 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
-2025-09-09 12:17:55 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
-2025-09-09 12:17:57 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-09 12:17:58 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-09 12:18:02 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-09 12:18:04 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-09 12:18:04 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-09-10 14:13:06 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-10 14:13:06 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:13:06 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:13:06 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:13:06 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-10 14:13:06 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-10 14:13:10 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:13:11 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 356 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:13:13 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:13:13 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:13:13 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:13:13 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:13:13 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:13:13 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6630 ms
+2025-09-10 14:13:14 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-10 14:13:15 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27407a4d
+2025-09-10 14:13:15 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-10 14:13:15 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:13:15 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:13:15 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:13:15 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:13:15 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.077s)
+2025-09-10 14:13:15 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:13:15 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:13:15 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:13:15 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:13:15 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10 14:13:16 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:13:17 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:13:17 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.0
@@ -36,57 +35,906 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-09 12:18:08 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-09 12:18:08 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 12:18:14 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-09 12:18:16 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-09-09 12:18:16 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-09 12:18:17 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-09 12:18:17 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 33.902 seconds (process running for 36.564)
-2025-09-09 12:20:34 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-09 12:20:34 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-09-09 12:20:34 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 157 ms
-2025-09-09 12:20:36 DEBUG [requestId=3a45f76e-9d5b-492d-b461-3a6586ed338f] c.e.E.s.Impl.EmployeeServiceImpl - Fetching employees. departmentFilter=null, pageable=Page request [number: 0, size 5, sort: salary: DESC]
-2025-09-09 12:20:38 WARN  [requestId=3a45f76e-9d5b-492d-b461-3a6586ed338f] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2025-09-10 14:13:20 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:13:20 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:13:21 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:13:21 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:13:22 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:13:22 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:13:22 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:13:23 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:13:24 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:13:24 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:13:24 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:13:24 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 20.663 seconds (process running for 24.43)
+2025-09-10 14:15:39 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-09-10 14:15:40 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:15:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:40 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:15:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:40 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:15:41 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-10 14:15:41 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-10 14:15:44 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:15:44 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:15:44 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:15:46 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:15:46 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:15:47 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:15:47 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:47 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:15:47 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:15:47 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:15:47 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2811 ms
+2025-09-10 14:15:47 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-09-10 14:15:47 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a78196a
+2025-09-10 14:15:47 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-09-10 14:15:47 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:15:47 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:15:47 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:15:47 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:15:47 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.029s)
+2025-09-10 14:15:47 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:15:47 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:15:47 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:15:47 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:15:47 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:15:47 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:15:47 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:15:48 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:15:48 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:15:48 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:15:48 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:15:48 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:15:48 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:15:48 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:15:49 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:15:49 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:15:49 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:49 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:15:49 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 6.525 seconds (process running for 168.877)
+2025-09-10 14:15:49 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:15:51 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-09-10 14:15:51 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:15:51 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:51 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:15:51 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:51 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:15:51 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-09-10 14:15:52 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-09-10 14:15:52 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:15:52 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:15:52 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:15:54 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:15:54 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:15:54 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:15:54 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:54 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:15:54 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:15:55 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:15:55 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2418 ms
+2025-09-10 14:15:55 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-09-10 14:15:55 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17515551
+2025-09-10 14:15:55 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-09-10 14:15:55 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:15:55 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:15:55 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:15:55 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:15:55 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.012s)
+2025-09-10 14:15:55 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:15:55 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:15:55 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:15:55 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:15:55 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:15:55 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:15:55 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:15:55 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:15:55 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:15:56 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:15:56 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:15:57 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:15:57 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:15:57 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:15:57 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:15:57 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:15:57 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:15:57 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:15:57 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 5.756 seconds (process running for 177.468)
+2025-09-10 14:15:57 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:18:39 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-09-10 14:18:40 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:18:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:40 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:18:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:40 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:18:40 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-09-10 14:18:40 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-09-10 14:18:42 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:18:42 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:18:42 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:18:44 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:18:44 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:18:44 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:18:44 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:44 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:18:44 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:18:45 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:18:45 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2820 ms
+2025-09-10 14:18:45 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-09-10 14:18:45 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72bb8b7d
+2025-09-10 14:18:45 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-09-10 14:18:45 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:18:45 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:18:45 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:18:45 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:18:45 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.031s)
+2025-09-10 14:18:45 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:18:45 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:18:45 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:18:45 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:18:45 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:18:45 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:18:45 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:18:45 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:18:45 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:18:45 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:18:45 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:18:46 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:18:46 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:18:46 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:18:46 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:18:46 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:18:46 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:46 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:18:46 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 4.474 seconds (process running for 345.822)
+2025-09-10 14:18:46 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:18:49 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-09-10 14:18:49 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:18:49 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:49 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:18:49 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:49 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:18:49 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-09-10 14:18:50 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-09-10 14:18:50 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:18:50 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:18:50 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:18:51 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:18:51 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:18:51 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:18:51 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:51 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:18:51 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:18:52 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:18:52 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+2025-09-10 14:18:52 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-09-10 14:18:52 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c52c5a3
+2025-09-10 14:18:52 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-09-10 14:18:52 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:18:52 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:18:52 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:18:52 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:18:52 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.015s)
+2025-09-10 14:18:52 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:18:52 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:18:52 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:18:52 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:18:52 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:18:52 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:18:52 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:18:52 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:18:52 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:18:52 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:18:52 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:18:54 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:18:54 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:18:54 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:18:54 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:18:55 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:18:55 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:18:55 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:18:55 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 4.687 seconds (process running for 354.543)
+2025-09-10 14:18:55 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:21:15 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-09-10 14:21:15 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:21:15 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:15 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:21:15 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:15 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:21:15 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-09-10 14:21:15 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-09-10 14:21:17 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:21:17 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:21:17 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:21:18 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:21:18 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:21:18 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:21:18 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:18 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:21:18 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:21:18 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:21:18 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1434 ms
+2025-09-10 14:21:18 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-09-10 14:21:19 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49deb1ac
+2025-09-10 14:21:19 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-09-10 14:21:19 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:21:19 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:21:19 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:21:19 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:21:19 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.031s)
+2025-09-10 14:21:19 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:21:19 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:21:19 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:21:19 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:21:19 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:21:19 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:21:19 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:21:19 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:21:19 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:21:19 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:21:19 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:21:19 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:21:19 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:21:19 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:21:19 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:21:20 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:21:20 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:20 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:21:20 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 3.55 seconds (process running for 499.905)
+2025-09-10 14:21:20 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:21:22 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-09-10 14:21:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:21:22 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:21:22 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:22 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:21:22 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-09-10 14:21:22 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-09-10 14:21:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:21:23 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:21:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:21:23 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:21:23 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:21:24 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:21:24 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:24 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:21:24 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:21:24 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:21:24 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+2025-09-10 14:21:24 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-09-10 14:21:24 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dcb9edf
+2025-09-10 14:21:24 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-09-10 14:21:24 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:21:24 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:21:24 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:21:24 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:21:24 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.016s)
+2025-09-10 14:21:24 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:21:24 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:21:24 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:21:24 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:21:24 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:21:24 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:21:24 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:21:24 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:21:24 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:21:25 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:21:25 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:21:25 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:21:25 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:21:25 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:21:26 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:21:26 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:21:26 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:21:26 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:21:26 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 3.744 seconds (process running for 506.433)
+2025-09-10 14:21:26 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:22:09 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-09-10 14:22:09 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:22:09 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:09 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:22:09 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:09 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:22:09 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-09-10 14:22:09 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-09-10 14:22:10 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:22:10 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:22:10 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:22:12 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:22:12 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:22:13 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:22:13 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:13 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:22:13 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:22:13 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:22:13 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2504 ms
+2025-09-10 14:22:13 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-09-10 14:22:13 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17217c51
+2025-09-10 14:22:13 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-09-10 14:22:13 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:22:13 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:22:13 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:22:13 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:22:13 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.025s)
+2025-09-10 14:22:13 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:22:13 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:22:13 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:22:13 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:22:13 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:22:13 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:22:13 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:22:13 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:22:13 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:22:14 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:22:14 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:22:14 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:22:14 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:22:14 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:22:14 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:22:14 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:22:14 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:14 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:22:14 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 3.97 seconds (process running for 554.029)
+2025-09-10 14:22:14 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:22:17 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-09-10 14:22:17 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:22:17 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:17 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:22:17 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:17 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:22:17 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-09-10 14:22:17 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-09-10 14:22:17 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:22:17 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:22:17 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:22:18 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:22:18 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:22:18 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:22:18 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:18 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:22:18 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:22:18 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:22:18 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+2025-09-10 14:22:18 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-09-10 14:22:18 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@649e11f8
+2025-09-10 14:22:18 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-09-10 14:22:18 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:22:18 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:22:18 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:22:18 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:22:18 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.009s)
+2025-09-10 14:22:18 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:22:18 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:22:18 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:22:18 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:22:18 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:22:18 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:22:18 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:22:18 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:22:18 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:22:18 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:22:18 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:22:19 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:22:19 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:22:19 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:22:19 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:22:19 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:22:19 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:22:19 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:22:19 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 1.894 seconds (process running for 558.837)
+2025-09-10 14:22:19 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-10 14:23:22 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 34 class path changes (0 additions, 33 deletions, 1 modification)
+2025-09-10 14:23:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:23:22 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:23:22 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:22 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:23:22 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-09-10 14:23:22 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-09-10 14:23:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:23:23 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:23:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:23:24 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:23:24 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-09-10 14:23:25 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:23:25 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:25 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:23:25 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:23:25 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:23:25 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+2025-09-10 14:23:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2025-09-10 14:23:25 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3df0c4b0
+2025-09-10 14:23:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2025-09-10 14:23:25 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:23:25 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:23:25 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:23:25 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:23:25 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.030s)
+2025-09-10 14:23:25 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:23:25 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:23:25 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:23:25 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:23:25 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:23:25 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:23:25 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:23:25 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:23:25 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:23:25 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:23:26 WARN  [requestId=] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3386db0a-c0c6-40b5-9c14-cd1988dce303
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10 14:23:26 INFO  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10 14:23:26 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:23:26 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:23:26 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:26 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:23:26 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 2.397 seconds (process running for 625.613)
+2025-09-10 14:23:26 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.ObjectPostProcessor; SearchStrategy: all) found beans 'objectPostProcessor', 'webAuthorizationManagerPostProcessor', 'filterChainDecoratorPostProcessor', 'authenticationManagerPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,?; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-09-10 14:23:35 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 32 class path changes (32 additions, 0 deletions, 0 modifications)
+2025-09-10 14:23:35 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:23:35 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:35 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:23:35 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:35 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:23:35 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-09-10 14:23:35 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-09-10 14:23:35 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:23:35 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:23:35 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:23:36 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:23:36 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:23:36 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:23:36 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:36 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:23:36 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:23:36 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:23:36 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1114 ms
+2025-09-10 14:23:36 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2025-09-10 14:23:36 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e879734
+2025-09-10 14:23:36 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2025-09-10 14:23:36 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:23:36 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:23:36 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:23:36 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:23:36 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.010s)
+2025-09-10 14:23:36 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:23:36 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:23:36 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:23:36 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:23:36 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:23:36 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:23:36 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:23:37 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:23:37 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:23:37 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:23:37 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:23:37 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:23:37 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:23:37 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:23:37 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:23:38 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:23:38 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:23:38 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:23:38 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 2.567 seconds (process running for 637.514)
+2025-09-10 14:23:38 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,?; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' customUserDetailsService and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-09-10 14:24:25 INFO  [requestId=] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 36 class path changes (0 additions, 36 deletions, 0 modifications)
+2025-09-10 14:24:25 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:24:25 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:24:25 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:24:25 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:24:25 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:24:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-09-10 14:24:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-09-10 14:24:44 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11864 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:24:44 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:24:44 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:24:45 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:24:45 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-09-10 14:24:45 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:24:45 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:24:45 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:24:45 INFO  [requestId=] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:24:45 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1258 ms
+2025-09-10 14:24:46 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2025-09-10 14:24:46 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1461dd83
+2025-09-10 14:24:46 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2025-09-10 14:24:46 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:24:46 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:24:46 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:24:46 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:24:46 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.025s)
+2025-09-10 14:24:46 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:24:46 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:24:46 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:24:46 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:24:46 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:24:46 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:24:46 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:24:46 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:24:46 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:24:46 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:24:47 WARN  [requestId=] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dad1fa68-0f06-4d78-9bac-f66487aed814
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10 14:24:47 INFO  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10 14:24:47 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:24:47 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:24:47 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:24:47 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:24:47 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 2.813 seconds (process running for 706.875)
+2025-09-10 14:24:47 INFO  [requestId=] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.ObjectPostProcessor; SearchStrategy: all) found beans 'objectPostProcessor', 'webAuthorizationManagerPostProcessor', 'filterChainDecoratorPostProcessor', 'authenticationManagerPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,?; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-09-10 14:24:47 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:24:47 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:24:47 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2025-09-10 14:24:47 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2025-09-10 14:25:22 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 1564 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:25:22 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:25:22 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:25:22 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-10 14:25:23 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-10 14:25:23 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-10 14:25:27 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:25:27 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:25:30 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:25:30 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:25:30 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:25:30 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:25:30 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:25:30 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7446 ms
+2025-09-10 14:25:31 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-10 14:25:31 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@767a954
+2025-09-10 14:25:31 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-10 14:25:31 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:25:31 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:25:31 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:25:31 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:25:32 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.070s)
+2025-09-10 14:25:32 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:25:32 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:25:32 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:25:32 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:25:32 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10 14:25:33 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:25:33 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:25:34 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:25:36 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:25:36 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:25:37 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:25:37 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:25:38 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:25:38 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:25:38 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:25:39 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:25:40 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:25:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:25:40 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:25:40 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 19.493 seconds (process running for 21.085)
+2025-09-10 14:27:13 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:27:13 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:27:14 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:27:14 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-10 14:27:14 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-10 14:27:23 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-10 14:27:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 14304 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:27:23 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:27:23 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:27:24 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-10 14:27:24 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-10 14:27:27 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:27:27 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:27:29 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:27:29 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:27:29 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:27:29 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:27:29 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:27:29 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5380 ms
+2025-09-10 14:27:30 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-10 14:27:30 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@562e986a
+2025-09-10 14:27:30 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-10 14:27:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:27:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:27:30 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:27:30 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:27:31 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.177s)
+2025-09-10 14:27:31 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:27:31 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:27:31 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:27:31 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:27:31 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10 14:27:31 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:27:32 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:27:33 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10 14:27:35 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:27:36 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:27:37 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:27:37 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:27:38 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:27:38 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:27:38 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:27:38 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:27:40 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:27:40 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:27:40 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:27:40 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 18.12 seconds (process running for 19.679)
+2025-09-10 14:28:45 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-10 14:28:45 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-10 14:28:46 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 780 ms
+2025-09-10 14:28:47 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:28:47 DEBUG [requestId=] o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-09-10 14:28:47 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:28:52 DEBUG [requestId=136a5104-e4c3-4264-9bfe-c3d07f52d861] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2025-09-10 14:34:04 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:34:08 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:34:08 DEBUG [requestId=0bf0b7d1-0266-4766-b987-9222ae39257b] c.e.E.s.Impl.EmployeeServiceImpl - Fetching employees. departmentFilter=null, pageable=Page request [number: 0, size 5, sort: salary: DESC]
+2025-09-10 14:34:09 WARN  [requestId=0bf0b7d1-0266-4766-b987-9222ae39257b] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2025-09-09 13:26:36 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-09 13:26:36 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-09 13:26:36 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 13:26:37 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-09 13:26:37 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-09 13:37:45 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-09 13:37:45 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 15996 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
-2025-09-09 13:37:45 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-09 13:37:45 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-09 13:37:45 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-09 13:37:45 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-09 13:37:48 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-09 13:37:48 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162 ms. Found 2 JPA repository interfaces.
-2025-09-09 13:37:50 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-09 13:37:50 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-09 13:37:50 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-09 13:37:50 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-09 13:37:51 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-09 13:37:51 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5317 ms
-2025-09-09 13:37:51 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
-2025-09-09 13:37:52 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-09 13:37:53 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59d67239
-2025-09-09 13:37:53 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-09 13:37:53 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
-2025-09-09 13:37:53 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
-2025-09-09 13:37:53 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
-2025-09-09 13:37:53 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
-2025-09-09 13:37:54 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.072s)
-2025-09-09 13:37:54 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
-2025-09-09 13:37:54 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
-2025-09-09 13:37:54 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
-2025-09-09 13:37:54 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-09 13:37:54 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-09 13:37:54 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-09 13:37:55 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-09 13:37:55 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-09-10 14:34:50 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/departments
+2025-09-10 14:34:50 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/departments
+2025-09-10 14:34:50 DEBUG [requestId=f95c55a4-8fa3-4cb8-b612-a744c51e50b7] c.e.E.s.Impl.DepartmentServiceImpl - Fetching all departments
+2025-09-10 14:35:34 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:35:34 DEBUG [requestId=] o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-09-10 14:35:34 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:35:35 DEBUG [requestId=c615cb7e-ec97-42e8-8897-682091a33ba4] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2025-09-10 14:35:56 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:35:56 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:35:56 DEBUG [requestId=deda85ae-1960-4c45-9882-c7bb68eca65d] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2025-09-10 14:36:13 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/departments
+2025-09-10 14:36:13 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/departments
+2025-09-10 14:36:13 DEBUG [requestId=3650ed8d-ee38-406d-a479-3ba13d8541ec] c.e.E.s.Impl.DepartmentServiceImpl - Fetching all departments
+2025-09-10 14:42:21 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:42:21 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:42:21 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:42:21 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-10 14:42:22 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-10 14:42:49 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-10 14:42:50 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 8404 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:42:50 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:42:50 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:42:50 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-10 14:42:50 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-10 14:42:58 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:42:58 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 304 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:43:04 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:43:04 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:43:04 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:43:04 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:43:05 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:43:05 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14230 ms
+2025-09-10 14:43:06 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-10 14:43:06 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d3af9
+2025-09-10 14:43:06 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-10 14:43:07 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:43:07 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:43:07 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:43:07 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:43:07 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.207s)
+2025-09-10 14:43:07 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:43:07 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:43:07 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:43:08 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:43:08 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10 14:43:08 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:43:09 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:43:10 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.0
@@ -94,61 +942,86 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-09 13:37:58 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-09 13:37:58 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 13:37:59 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-09 13:38:01 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-09-09 13:38:01 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-09 13:38:01 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-09 13:38:01 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 18.037 seconds (process running for 19.611)
-2025-09-09 13:40:33 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-09 13:40:33 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-09-09 13:40:33 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 71 ms
-2025-09-09 13:40:33 WARN  [requestId=587a22e2-6580-4805-9b73-c1d0b8ed91eb] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-09-09 13:40:46 DEBUG [requestId=71ca0050-4a86-498c-8501-97af7792cbd9] c.e.E.s.Impl.DepartmentServiceImpl - Deleting department id=8
-2025-09-09 13:40:46 INFO  [requestId=71ca0050-4a86-498c-8501-97af7792cbd9] c.e.E.s.Impl.DepartmentServiceImpl - Deleted department id=8
-2025-09-09 13:40:48 WARN  [requestId=71ca0050-4a86-498c-8501-97af7792cbd9] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1451, SQLState: 23000
-2025-09-09 13:40:48 ERROR [requestId=71ca0050-4a86-498c-8501-97af7792cbd9] o.h.e.jdbc.spi.SqlExceptionHelper - Cannot delete or update a parent row: a foreign key constraint fails (`employee_db`.`employees`, CONSTRAINT `FKgy4qe3dnqrm3ktd76sxp7n4c2` FOREIGN KEY (`department_id`) REFERENCES `departments` (`id`))
-2025-09-09 13:40:48 WARN  [requestId=71ca0050-4a86-498c-8501-97af7792cbd9] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`employee_db`.`employees`, CONSTRAINT `FKgy4qe3dnqrm3ktd76sxp7n4c2` FOREIGN KEY (`department_id`) REFERENCES `departments` (`id`))] [delete from departments where id=?]; SQL [delete from departments where id=?]; constraint [null]]
-2025-09-09 13:47:38 DEBUG [requestId=aa643884-351f-4505-8443-f216cf5fd034] c.e.E.s.Impl.DepartmentServiceImpl - Fetching all departments
-2025-09-09 13:50:58 DEBUG [requestId=1eb57547-c9df-4d96-b870-45a25a11784b] c.e.E.s.Impl.DepartmentServiceImpl - Updating department id=8 with DepartmentRequest(name=Finance & Accounting, location=Mumbai)
-2025-09-09 13:50:58 INFO  [requestId=1eb57547-c9df-4d96-b870-45a25a11784b] c.e.E.s.Impl.DepartmentServiceImpl - Updated department id=8
-2025-09-09 14:40:00 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-09 14:40:01 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-09 14:40:01 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 14:40:01 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-09 14:40:01 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-09 14:40:22 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-09 14:40:22 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 11376 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
-2025-09-09 14:40:22 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-09 14:40:22 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-09 14:40:23 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-09 14:40:23 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-09 14:40:28 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-09 14:40:28 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 174 ms. Found 2 JPA repository interfaces.
-2025-09-09 14:40:31 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-09 14:40:31 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-09 14:40:31 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-09 14:40:31 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-09 14:40:31 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-09 14:40:31 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8096 ms
-2025-09-09 14:40:31 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
-2025-09-09 14:40:33 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-09 14:40:34 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@761ba75a
-2025-09-09 14:40:34 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-09 14:40:35 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
-2025-09-09 14:40:35 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
-2025-09-09 14:40:35 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
-2025-09-09 14:40:35 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
-2025-09-09 14:40:35 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.074s)
-2025-09-09 14:40:35 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
-2025-09-09 14:40:35 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
-2025-09-09 14:40:35 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
-2025-09-09 14:40:35 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-09 14:40:35 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-09 14:40:35 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-09 14:40:36 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-09 14:40:37 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-09-10 14:43:14 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:43:14 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:43:15 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:43:15 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:43:16 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:43:17 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:43:17 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:43:18 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:43:20 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:43:20 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:43:20 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:43:20 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 37.231 seconds (process running for 39.018)
+2025-09-10 14:43:26 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-10 14:43:26 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-10 14:43:26 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-09-10 14:43:26 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:43:28 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:43:29 DEBUG [requestId=326b2289-d2cf-45b0-9ac1-8c2b190a6c7b] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2025-09-10 14:43:58 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:43:58 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:43:58 DEBUG [requestId=0b0d42bc-95c6-47d8-b37a-152a084eba82] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:43:58 DEBUG [requestId=0b0d42bc-95c6-47d8-b37a-152a084eba82] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:43:58 DEBUG [requestId=0b0d42bc-95c6-47d8-b37a-152a084eba82] c.e.E.s.Impl.EmployeeServiceImpl - Fetching employees. departmentFilter=null, pageable=Page request [number: 0, size 5, sort: salary: DESC]
+2025-09-10 14:43:59 WARN  [requestId=0b0d42bc-95c6-47d8-b37a-152a084eba82] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-10 14:44:22 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:44:22 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:44:23 DEBUG [requestId=7bfd003b-65ae-4790-a600-9b13af30ecf6] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2025-09-10 14:44:44 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:44:44 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:44:44 DEBUG [requestId=f8c981bd-d42d-4524-b7b9-04fd9297b337] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:44:44 DEBUG [requestId=f8c981bd-d42d-4524-b7b9-04fd9297b337] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:44:44 DEBUG [requestId=f8c981bd-d42d-4524-b7b9-04fd9297b337] c.e.E.s.Impl.EmployeeServiceImpl - Fetching employees. departmentFilter=null, pageable=Page request [number: 0, size 5, sort: salary: DESC]
+2025-09-10 14:45:02 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:45:02 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured GET /api/employees?page=0&size=5&sort=salary,desc&departmentName=IT
+2025-09-10 14:45:02 DEBUG [requestId=28dfa60a-5225-4e8b-8e1a-475f9d67bfea] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:45:02 DEBUG [requestId=28dfa60a-5225-4e8b-8e1a-475f9d67bfea] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.getAllEmployees(java.lang.String,org.springframework.data.domain.Pageable); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:45:02 DEBUG [requestId=28dfa60a-5225-4e8b-8e1a-475f9d67bfea] c.e.E.s.Impl.EmployeeServiceImpl - Fetching employees. departmentFilter=null, pageable=Page request [number: 0, size 5, sort: salary: DESC]
+2025-09-10 14:46:31 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /api/employees
+2025-09-10 14:46:32 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /api/employees
+2025-09-10 14:46:35 DEBUG [requestId=ac35eafe-46cd-4c92-9633-4fe74af43693] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.createEmployee(com.example.EmployeeManagementSystem.dto.EmployeeRequest); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController]
+2025-09-10 14:46:35 DEBUG [requestId=ac35eafe-46cd-4c92-9633-4fe74af43693] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor - Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.EmployeeManagementSystem.controller.EmployeeController.createEmployee(com.example.EmployeeManagementSystem.dto.EmployeeRequest); target is of class [com.example.EmployeeManagementSystem.controller.EmployeeController] with authorization manager org.springframework.security.authorization.method.PreAuthorizeAuthorizationManager@374750be and result ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2025-09-10 14:46:35 WARN  [requestId=ac35eafe-46cd-4c92-9633-4fe74af43693] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-09-10 14:50:09 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10 14:50:09 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-10 14:50:09 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:50:09 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-10 14:50:10 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-10 14:52:11 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-10 14:52:11 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 17888 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
+2025-09-10 14:52:11 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10 14:52:11 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-10 14:52:11 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-10 14:52:11 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-10 14:52:15 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10 14:52:15 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 174 ms. Found 3 JPA repository interfaces.
+2025-09-10 14:52:17 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-10 14:52:17 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:52:17 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-10 14:52:17 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10 14:52:17 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-10 14:52:17 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6512 ms
+2025-09-10 14:52:18 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-10 14:52:19 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d1e14c
+2025-09-10 14:52:19 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-10 14:52:19 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
+2025-09-10 14:52:19 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2025-09-10 14:52:19 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
+2025-09-10 14:52:19 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-09-10 14:52:19 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.263s)
+2025-09-10 14:52:19 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2025-09-10 14:52:19 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
+2025-09-10 14:52:19 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
+2025-09-10 14:52:20 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10 14:52:20 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10 14:52:20 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-10 14:52:21 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10 14:52:21 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.0
@@ -156,67 +1029,21 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-09 14:40:39 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-09 14:40:40 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 14:40:52 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-09 14:40:55 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-09-09 14:40:55 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-09 14:40:56 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-09 14:40:56 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 36.737 seconds (process running for 38.602)
-2025-09-09 15:19:22 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-09 15:19:23 INFO  [requestId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-09 15:19:25 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 15:19:25 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-09 15:19:26 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-09 15:20:13 INFO  [requestId=] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-09 15:20:13 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 22.0.2 with PID 4128 (C:\Spring boot\EmployeeManagementSystem\target\classes started by sanika in C:\Spring boot\EmployeeManagementSystem)
-2025-09-09 15:20:13 DEBUG [requestId=] c.e.E.EmployeeManagementSystemApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-09 15:20:13 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-09 15:20:14 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-09 15:20:14 INFO  [requestId=] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-09 15:20:21 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-09 15:20:22 INFO  [requestId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211 ms. Found 2 JPA repository interfaces.
-2025-09-09 15:20:26 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-09 15:20:26 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-09 15:20:26 INFO  [requestId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-09 15:20:26 INFO  [requestId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-09 15:20:27 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-09 15:20:27 INFO  [requestId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12806 ms
-2025-09-09 15:20:27 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
-2025-09-09 15:20:28 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-09 15:20:29 INFO  [requestId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fb2f65
-2025-09-09 15:20:29 INFO  [requestId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-09 15:20:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - 2 SQL migrations were detected but not run because they did not follow the filename convention.
-2025-09-09 15:20:30 INFO  [requestId=] o.f.c.i.r.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
-2025-09-09 15:20:30 INFO  [requestId=] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/employee_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC (MySQL 9.0)
-2025-09-09 15:20:30 WARN  [requestId=] o.f.c.i.database.base.Database - Flyway upgrade recommended: MySQL 9.0 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
-2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.102s)
-2025-09-09 15:20:30 WARN  [requestId=] o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
-2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Current version of schema `employee_db`: << Empty Schema >>
-2025-09-09 15:20:30 INFO  [requestId=] o.f.core.internal.command.DbMigrate - Schema `employee_db` is up to date. No migration necessary.
-2025-09-09 15:20:30 INFO  [requestId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-09 15:20:31 INFO  [requestId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-09 15:20:31 INFO  [requestId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-09 15:20:31 INFO  [requestId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-09 15:20:32 INFO  [requestId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 9.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-09 15:20:35 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-09 15:20:35 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-09 15:20:36 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-09 15:20:37 INFO  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-09-09 15:20:39 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-09-09 15:20:39 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-09 15:20:39 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-09 15:20:39 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 36.426 seconds (process running for 39.191)
-2025-09-09 15:20:54 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-09 15:20:54 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-09-09 15:20:54 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 39 ms
-2025-09-09 15:20:55 WARN  [requestId=] o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [346] milliseconds.
-2025-09-09 15:28:46 WARN  [requestId=fde55266-0d43-4725-bd9f-f910798b2ac8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
-2025-09-09 15:29:49 DEBUG [requestId=e4ecc7fd-cbf8-4250-a137-b98f98642eb4] c.e.E.s.Impl.DepartmentServiceImpl - Fetching all departments
+2025-09-10 14:52:23 INFO  [requestId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10 14:52:23 INFO  [requestId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10 14:52:24 DEBUG [requestId=] c.e.E.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-09-10 14:52:24 DEBUG [requestId=] c.e.E.config.MDCLoggingFilter - Filter 'MDCLoggingFilter' configured for use
+2025-09-10 14:52:25 WARN  [requestId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10 14:52:25 INFO  [requestId=] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-09-10 14:52:25 WARN  [requestId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-09-10 14:52:26 DEBUG [requestId=] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-09-10 14:52:27 INFO  [requestId=] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-10 14:52:28 INFO  [requestId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-10 14:52:28 INFO  [requestId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-10 14:52:28 INFO  [requestId=] c.e.E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 18.822 seconds (process running for 20.664)
+2025-09-10 14:52:51 INFO  [requestId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-10 14:52:51 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-10 14:52:51 INFO  [requestId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 241 ms
+2025-09-10 14:52:53 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Securing POST /auth/login
+2025-09-10 14:52:59 DEBUG [requestId=] o.s.security.web.FilterChainProxy - Secured POST /auth/login
+2025-09-10 14:53:00 DEBUG [requestId=e11d93ff-a079-43cf-9429-5de0d3a64e78] o.s.s.a.d.DaoAuthenticationProvider - Authenticated user

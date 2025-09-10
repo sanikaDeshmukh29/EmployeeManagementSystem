@@ -15,6 +15,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -25,19 +26,14 @@ public class EmployeeController {
 
     private final EmployeeService employeeService;
 
-    @Operation(summary = "Create new employee")
-    @ApiResponse(responseCode = "201", description = "Employee created successfully",
-            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
-    @ApiResponse(responseCode = "400", description = "Invalid input data")
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<EmployeeResponse> createEmployee(@Valid @RequestBody EmployeeRequest request) {
         EmployeeResponse created = employeeService.create(request);
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
     }
 
-    @Operation(summary = "Get all employees",
-            description = "Returns paginated, sortable list of employees with optional department filter")
-    @ApiResponse(responseCode = "200", description = "Employees fetched successfully")
+    @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping
     public ResponseEntity<Page<EmployeeResponse>> getAllEmployees(
             @RequestParam(required = false) String department,
@@ -46,19 +42,14 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 
-    @Operation(summary = "Get employee by ID")
-    @ApiResponse(responseCode = "200", description = "Employee found",
-            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
-    @ApiResponse(responseCode = "404", description = "Employee not found")
+    @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping("/{id}")
     public ResponseEntity<EmployeeResponse> getEmployeeById(@PathVariable Long id) {
         EmployeeResponse response = employeeService.getById(id);
         return ResponseEntity.ok(response);
     }
 
-    @Operation(summary = "Update employee by ID")
-    @ApiResponse(responseCode = "200", description = "Employee updated successfully")
-    @ApiResponse(responseCode = "404", description = "Employee not found")
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{id}")
     public ResponseEntity<EmployeeResponse> updateEmployee(
             @PathVariable Long id,
@@ -67,13 +58,10 @@ public class EmployeeController {
         return ResponseEntity.ok(updated);
     }
 
-    @Operation(summary = "Delete employee by ID")
-    @ApiResponse(responseCode = "204", description = "Employee deleted successfully")
-    @ApiResponse(responseCode = "404", description = "Employee not found")
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEmployee(@PathVariable Long id) {
         employeeService.delete(id);
         return ResponseEntity.noContent().build(); // 204 No Content
     }
-
 }
