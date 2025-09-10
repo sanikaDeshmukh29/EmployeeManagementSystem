@@ -3,9 +3,11 @@ package com.example.EmployeeManagementSystem.service.Impl;
 import com.example.EmployeeManagementSystem.dto.DepartmentRequest;
 import com.example.EmployeeManagementSystem.dto.DepartmentResponse;
 import com.example.EmployeeManagementSystem.entity.Department;
+import com.example.EmployeeManagementSystem.entity.Employee;
 import com.example.EmployeeManagementSystem.exceptions.ResourceNotFoundException;
 import com.example.EmployeeManagementSystem.mapper.DepartmentMapper;
 import com.example.EmployeeManagementSystem.repository.DepartmentRepository;
+import com.example.EmployeeManagementSystem.repository.EmployeeRepository;
 import com.example.EmployeeManagementSystem.service.DepartmentService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -23,6 +25,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     private static final Logger log = LoggerFactory.getLogger(DepartmentServiceImpl.class);
 
     private final DepartmentRepository departmentRepository;
+    private final EmployeeRepository employeeRepository; // ✅ add repository
 
     @Override
     @Transactional
@@ -82,8 +85,20 @@ public class DepartmentServiceImpl implements DepartmentService {
         Department department = departmentRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Department with ID " + id + " not found"));
 
-        departmentRepository.delete(department);
-        log.info("Deleted department id={}", id);
-    }
+        //  Step 1: Find employees in this department
+        List<Employee> employees = employeeRepository.findByDepartmentId(id);
 
+        //  Step 2: Set department = null
+        for (Employee emp : employees) {
+            emp.setDepartment(null);
+        }
+
+        //  Step 3: Save employees
+        employeeRepository.saveAll(employees);
+
+        //  Step 4: Delete department
+        departmentRepository.delete(department);
+
+        log.info("Deleted department id={} and unlinked {} employees", id, employees.size());
+    }
 }

@@ -18,6 +18,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * REST Controller for managing Employee entities.
+ * Provides endpoints to create, read, update, and delete employees.
+ */
 @RestController
 @RequestMapping("/api/employees")
 @RequiredArgsConstructor
@@ -26,6 +30,15 @@ public class EmployeeController {
 
     private final EmployeeService employeeService;
 
+    /**
+     * Create a new employee.
+     *
+     * @param request EmployeeRequest containing employee details
+     * @return Created EmployeeResponse
+     */
+    @Operation(summary = "Create employee", description = "Create a new employee")
+    @ApiResponse(responseCode = "201", description = "Employee created successfully",
+            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
     @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<EmployeeResponse> createEmployee(@Valid @RequestBody EmployeeRequest request) {
@@ -33,6 +46,16 @@ public class EmployeeController {
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
     }
 
+    /**
+     * Get all employees with optional department filter and pagination.
+     *
+     * @param department Optional department name to filter employees
+     * @param pageable   Pageable object for pagination and sorting
+     * @return Page of EmployeeResponse
+     */
+    @Operation(summary = "Get all employees", description = "Retrieve all employees with optional department filter and pagination")
+    @ApiResponse(responseCode = "200", description = "Successfully retrieved employees",
+            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
     @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping
     public ResponseEntity<Page<EmployeeResponse>> getAllEmployees(
@@ -42,6 +65,16 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 
+    /**
+     * Get an employee by ID.
+     *
+     * @param id Employee ID
+     * @return EmployeeResponse
+     */
+    @Operation(summary = "Get employee by ID", description = "Retrieve an employee by its ID")
+    @ApiResponse(responseCode = "200", description = "Successfully retrieved employee",
+            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
+    @ApiResponse(responseCode = "404", description = "Employee not found")
     @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping("/{id}")
     public ResponseEntity<EmployeeResponse> getEmployeeById(@PathVariable Long id) {
@@ -49,6 +82,17 @@ public class EmployeeController {
         return ResponseEntity.ok(response);
     }
 
+    /**
+     * Update an existing employee.
+     *
+     * @param id      Employee ID
+     * @param request EmployeeRequest with updated details
+     * @return Updated EmployeeResponse
+     */
+    @Operation(summary = "Update employee", description = "Update employee details")
+    @ApiResponse(responseCode = "200", description = "Employee updated successfully",
+            content = @Content(schema = @Schema(implementation = EmployeeResponse.class)))
+    @ApiResponse(responseCode = "404", description = "Employee not found")
     @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{id}")
     public ResponseEntity<EmployeeResponse> updateEmployee(
@@ -58,10 +102,18 @@ public class EmployeeController {
         return ResponseEntity.ok(updated);
     }
 
+    /**
+     * Delete an employee by ID.
+     *
+     * @param id Employee ID
+     */
+    @Operation(summary = "Delete employee", description = "Delete an employee by its ID")
+    @ApiResponse(responseCode = "204", description = "Employee deleted successfully")
+    @ApiResponse(responseCode = "404", description = "Employee not found")
     @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEmployee(@PathVariable Long id) {
         employeeService.delete(id);
-        return ResponseEntity.noContent().build(); // 204 No Content
+        return ResponseEntity.noContent().build();
     }
 }
