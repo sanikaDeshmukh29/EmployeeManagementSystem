@@ -46,8 +46,6 @@ public class EmployeeServiceImpl implements EmployeeService {
         return EmployeeMapper.toResponse(saved);
     }
 
-    @Override
-    @Transactional(readOnly = true)
     public Page<EmployeeResponse> getAll(String departmentName, Pageable pageable) {
         log.debug("Fetching employees. departmentFilter={}, pageable={}", departmentName, pageable);
         Page<Employee> page;

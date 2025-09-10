@@ -2,10 +2,12 @@ package com.example.EmployeeManagementSystem.service.Impl;
 
 import com.example.EmployeeManagementSystem.dto.DepartmentRequest;
 import com.example.EmployeeManagementSystem.dto.DepartmentResponse;
+import com.example.EmployeeManagementSystem.dto.EmployeeResponse;
 import com.example.EmployeeManagementSystem.entity.Department;
 import com.example.EmployeeManagementSystem.entity.Employee;
 import com.example.EmployeeManagementSystem.exceptions.ResourceNotFoundException;
 import com.example.EmployeeManagementSystem.mapper.DepartmentMapper;
+import com.example.EmployeeManagementSystem.mapper.EmployeeMapper;
 import com.example.EmployeeManagementSystem.repository.DepartmentRepository;
 import com.example.EmployeeManagementSystem.repository.EmployeeRepository;
 import com.example.EmployeeManagementSystem.service.DepartmentService;
@@ -42,12 +44,18 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     @Transactional(readOnly = true)
     public List<DepartmentResponse> getAll() {
-        log.debug("Fetching all departments");
+        List<Department> departments = departmentRepository.findAll();
 
-        return departmentRepository.findAll()
-                .stream()
-                .map(DepartmentMapper::toResponse)
-                .collect(Collectors.toList());
+        return departments.stream().map(dept -> {
+            DepartmentResponse response = DepartmentMapper.toResponse(dept);
+
+            List<EmployeeResponse> employees = dept.getEmployees().stream()
+                    .map(EmployeeMapper::toResponse)
+                    .collect(Collectors.toList());
+
+            response.setEmployees(employees);
+            return response;
+        }).collect(Collectors.toList());
     }
 
     @Override

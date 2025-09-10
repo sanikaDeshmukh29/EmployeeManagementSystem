@@ -11,7 +11,9 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -59,12 +61,18 @@ public class EmployeeController {
     @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping
     public ResponseEntity<Page<EmployeeResponse>> getAllEmployees(
-            @RequestParam(required = false) String department,
-            @PageableDefault(size = 10, sort = "id") Pageable pageable) {
-        Page<EmployeeResponse> employees = employeeService.getAll(department, pageable);
+            @RequestParam(required = false) String departmentName,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "id") String sortBy,
+            @RequestParam(defaultValue = "asc") String sortDir) {
+
+        Sort sort = sortDir.equalsIgnoreCase("asc") ? Sort.by(sortBy).ascending() : Sort.by(sortBy).descending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        Page<EmployeeResponse> employees = employeeService.getAll(departmentName, pageable);
         return ResponseEntity.ok(employees);
     }
-
     /**
      * Get an employee by ID.
      *

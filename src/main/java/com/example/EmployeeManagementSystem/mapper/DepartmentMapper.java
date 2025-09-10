@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class DepartmentMapper {
 
-    // 🔹 Request -> Entity
+    // Request -> Entity
     public static Department toEntity(DepartmentRequest dto) {
         Department department = new Department();
         department.setName(dto.getName());
@@ -18,7 +18,7 @@ public class DepartmentMapper {
         return department;
     }
 
-    // 🔹 Entity -> Response
+    // Entity -> Response
     public static DepartmentResponse toResponse(Department department) {
         DepartmentResponse dto = new DepartmentResponse();
         dto.setId(department.getId());
@@ -36,7 +36,7 @@ public class DepartmentMapper {
         return dto;
     }
 
-    // 🔹 Helper: Employee -> EmployeeResponse
+    // Helper: Employee -> EmployeeResponse
     private static EmployeeResponse mapEmployeeToResponse(Employee emp) {
         EmployeeResponse empDto = new EmployeeResponse();
         empDto.setId(emp.getId());
@@ -45,6 +45,8 @@ public class DepartmentMapper {
         empDto.setEmail(emp.getEmail());
         empDto.setPhone(emp.getPhone());
         empDto.setSalary(emp.getSalary());
+        empDto.setDepartmentName(emp.getDepartment() != null ? emp.getDepartment().getName() : null);
+
         return empDto;
     }
 
