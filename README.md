@@ -6,6 +6,17 @@ The **Employee Management System** is a Spring Boot-based RESTful web applicatio
 
 ## Features
 
+## 🛠 Database Migration (Flyway)
+
+This project uses **Flyway** for database version control.  
+The migration scripts are stored in the `src/main/resources/db/migration` folder.
+
+- **V1__create_departments_table.sql** → Creates the `departments` table
+- **V2__create_employees_table.sql** → Creates the `employees` table
+
+Flyway automatically runs these migrations on application startup, ensuring the database schema is always in sync with the project.
+
+
 * **Department Management**
 
     * Add, update, delete, and view departments.
@@ -41,18 +52,33 @@ The **Employee Management System** is a Spring Boot-based RESTful web applicatio
 ## Project Structure
 
 ```
-com.example.EmployeeManagementSystem
-│
-├─ config            # JWT and security configuration
-├─ controller        # REST controllers
-├─ dto               # Request and Response DTOs
-├─ entity            # JPA entity classes
-├─ exceptions        # Custom exceptions and global handler
-├─ mapper            # Mapper classes for entity-DTO conversion
-├─ repository        # JPA repositories
-├─ security          # JWT utility and filter
-├─ service           # Service interfaces and implementations
-└─ EmployeeManagementSystemApplication.java
+EmployeeManagementSystem/
+├── logs/ # Log files
+├── src/
+│ ├── images/ # Postman test screenshots
+│ ├── main/
+│ │ ├── java/com/example/EmployeeManagementSystem/
+│ │ │ ├── config/ # Security & Config classes
+│ │ │ ├── controller/ # REST Controllers
+│ │ │ ├── dto/ # Request/Response DTOs
+│ │ │ ├── entity/ # JPA Entities
+│ │ │ ├── exceptions/ # Custom Exceptions
+│ │ │ ├── mapper/ # DTO <-> Entity Mappers
+│ │ │ ├── repository/ # Spring Data JPA Repositories
+│ │ │ ├── security/ # JWT Security
+│ │ │ └── service/ # Business Logic
+│ │ └── resources/
+│ │ ├── db/migration/ # Flyway SQL migration scripts
+│ │ │ ├── V1__create_departments_table.sql
+│ │ │ └── V2__create_employees_table.sql
+│ │ ├── application.properties
+│ │ ├── logback-spring.xml
+│ │ └── templates/ # (If using Thymeleaf)
+│ └── test/ # Test classes
+├── target/ # Compiled output
+├── README.md
+├── .gitignore
+└── pom.xml
 ```
 
 ## Entities
